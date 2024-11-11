@@ -36,7 +36,7 @@ let conocimientos = [
 ];
 
 
-//  -----  -  3. Muestra todos los valores de las variables por la consola  -----
+//  -----  3. Muestra todos los valores de las variables por la consola  -----
 console.log(`
     
     Hola, soy ${nombre} ${apellidos} y tengo ${edad} años, soy de ${pais}
