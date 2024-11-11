@@ -1,0 +1,57 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */ 
+/*  **********  /proyecto-05-js/assets/css/styles.css  **********  */ 
+/*  *************************************************************  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+    
+}
+
+.tables {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tables__item {
+    width: calc(20% - 8px);
+    color: #ffffff;
+    background-color: #4747ea;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tables__title {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tables__list {
+    list-style: none;
+    text-align: center;
+    padding: 0; 
+}
+
+.separator {
+    width: 120%;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #aaa;
+}
+
+
+
+
