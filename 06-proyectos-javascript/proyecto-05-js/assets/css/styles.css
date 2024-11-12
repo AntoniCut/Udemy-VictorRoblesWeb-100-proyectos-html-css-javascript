@@ -24,7 +24,8 @@ body {
 }
 
 .tables__item {
-    width: calc(20% - 8px);
+    /* width: calc(20% - 8px); */
+    width: 290px;
     color: #ffffff;
     background-color: #4747ea;
     font-size: 15px;
