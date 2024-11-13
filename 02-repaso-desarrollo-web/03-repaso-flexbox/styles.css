@@ -1,0 +1,76 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /02-repaso-desarrollo-web/  ********************  */
+/*  **********  /03-repaso-flexbox/styles.css  *****************  */
+
+
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+.flex-container1,
+.flex-container2 {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 5px;
+}
+
+.flex-container2 {
+    justify-content: center;
+}
+
+.caja {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja-grande {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja1 {
+    background-color: lightblue;
+    order: 2;
+    flex-grow: 5;
+    align-self: flex-start;
+}
+
+.caja2 {
+    background-color: lightcoral;
+    order: 3;
+    flex-grow: 2;
+    align-self: flex-end;
+}
+
+.caja3 {
+    background-color: lightgreen;
+    order: 1;
+    flex-grow: 1;
+    align-self: center;
+}

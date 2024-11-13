@@ -1,0 +1,88 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /02-repaso-desarrollo-web/  ********************  */
+/*  **********  /02/aprendiendo-css/styles.css  ****************  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    margin: 20px auto;
+    border: 10px solid black;
+}
+
+header {
+    background: red;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+nav {
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2 {
+    font-size: 25px;
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: calc(500px + 40px);
+    background: orange;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+footer {
+    color: white;
+    background: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
