@@ -1,0 +1,171 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /02-repaso-desarrollo-web/  ********************  */
+/*  **********  /04-repaso-grid/styles.css  ********************  */
+
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+.grid-layout-template {
+    display: grid;
+    grid-template-columns: 50% 20% auto;
+    grid-template-rows: 100px auto;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    background: lightgreen;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.grid-layout-column,
+.grid-layout-row,
+.grid-layout-area {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+    width: 80%;
+    margin: 0 auto;
+    background: lightgreen;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.caja {
+    border: 4px solid black;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    line-height: 75px;
+}
+
+/*  -----  Grid Column  -----  */
+.grid-layout-colum .c1 {
+    grid-column: 1/4;
+    background-color: lightblue;
+}
+
+.grid-layout-colum .c2 {
+    grid-column: 1/3;
+    background-color: lightyellow;
+}
+
+.grid-layout-colum .c3 {
+    grid-column: 3/4;
+    background-color: lightsalmon;
+}
+
+.grid-layout-colum .c11 {
+    grid-column: 2/4;
+}
+
+.grid-layout-colum .c12 {
+    grid-column: 1 / span 3;
+}
+
+
+/*  -----  Grid Row  -----  */
+
+.grid-layout-row .c1 {
+    grid-row: 1 / span 2;
+    background-color: lightblue;
+}
+
+.grid-layout-row .c2 {
+    grid-row: 1 / span 5;
+    background-color: lightcoral;
+}
+
+
+/*  -----  Grid Area  -----  */
+.grid-layout-area .c1 {
+    /*  -----  grid-area  (filaInicio / columnaInicio / filaFinal / columnaFinal)  -----  */
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+
+/*  -----  Grid Template Column  -----  */
+
+.grid-layout-template-column {
+    display: grid;
+    height: 650px;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 20% 10% 60% 10%;
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin-bottom: 50px;
+}
+
+.grid-layout-template-column .header {
+    grid-column: 1 / span 2;
+    background-color: lightblue;
+}
+
+.grid-layout-template-column .nav {
+    grid-column: 1 / span 2;
+    background-color: lightgoldenrodyellow;
+}
+
+.grid-layout-template-column .content {
+    background-color: lightcoral;
+}
+
+.grid-layout-template-column .aside {
+    background-color: lightslategray;
+}
+
+.grid-layout-template-column .footer {
+    grid-column: 1 / span 2;
+    color: white;
+    background-color: black;
+}
+
+
+/*  -----  Grid Template Areas  -----  */
+
+.grid-layout-template-areas {
+    display: grid;
+    height: 650px;
+    grid-template-areas:
+        'cabecera  cabecera '
+        'menu      menu '
+        'contenido lateral '
+        'footer    footer '
+    ;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 20% 10% auto 10%;
+
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin-bottom: 50px;
+}
+
+.grid-layout-template-areas .header {
+    grid-area: cabecera;
+    background-color: lightblue;
+}
+
+.grid-layout-template-areas .nav {
+    grid-area: menu;
+    background-color: lightgoldenrodyellow;
+}
+
+.grid-layout-template-areas .content {
+    grid-area: contenido;
+    background-color: lightcoral;
+}
+
+.grid-layout-template-areas .aside {
+    grid-area: lateral;
+    background-color: lightslategray;
+}
+
+.grid-layout-template-areas .footer {
+    grid-area: footer;
+    color: white;
+    background-color: black;
+}
