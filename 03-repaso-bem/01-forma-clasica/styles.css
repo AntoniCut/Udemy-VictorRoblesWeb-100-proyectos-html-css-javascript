@@ -25,6 +25,10 @@
 
 */
 
+.title {
+    text-align: center;
+}
+
 .cards {
     width: 400px;
     margin: 10px auto;

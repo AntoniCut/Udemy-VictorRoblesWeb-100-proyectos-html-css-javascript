@@ -1,0 +1,32 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /03-variables/styles.css  **********************  */
+
+
+:root {
+    --color-principal: red;
+    --fuente: Arial, Verdana;
+    --fuente-size: 45px;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--fuente-size);
+    color: var(--color-principal);
+    font-family: var(--fuente);
+}
+
+p {
+    font-family: var(--fuente);
+}
+
+a {
+    color:var(--color-principal);
+}
+
+h3 {
+    font-size: var(--fuente-size);
+}

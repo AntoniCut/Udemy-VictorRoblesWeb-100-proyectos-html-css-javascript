@@ -29,6 +29,11 @@
 
 */
 
+
+.title {
+    text-align: center;
+}
+
 .cards {
     width: 400px;
     margin: 10px auto;
@@ -60,4 +65,9 @@
 
 .card__link--rojo {
     background-color: red;
+}
+
+.card__link--amarillo {
+    color: black;
+    background-color: yellow;
 }
