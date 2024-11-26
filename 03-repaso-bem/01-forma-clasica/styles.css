@@ -1,0 +1,54 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /01-forma-clasica/styles.css  ******************  */
+
+
+/*
+
+-----  Trabajar de Forma Clásica  -----
+
+    BEM = Bloque Elemento Modificador
+    -  Es una metodologia de trabajo.
+    -  Se usa siemple class, no ID.
+    -  class = aplicar estilos.
+    -  id = aplicar funcionalidad (javascript).
+
+    .bloque__elemento--modificador
+
+    .bloque
+
+    .bloque__elemento
+
+    .bloque__elemento--modificador
+
+    ---------------------------------------------
+
+*/
+
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a {
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /02-metodologia-bem/styles.css  ****************  */
+
+
+/*
+
+----------  Trabajar con la Metodologia BEM  ----------
+
+    BEM = Bloque Elemento Modificador
+    -  Es una metodologia de trabajo.
+    -  Se usa siemple class, no ID.
+    -  class = aplicar estilos.
+    -  id = aplicar funcionalidad (javascript).
+
+    .bloque__elemento--modificador
+
+    .bloque
+
+    .bloque__elemento
+
+    .bloque__elemento--modificador
+
+    1. No usar ID.
+    2. No usar etiquetas.
+    3. Que todo sea un key selector (seleccionar justo el elemnto al cual se le daran estilos).
+
+------------------------------------------------------------------------------------------------
+
+*/
+
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+/*contexto   key selector o clave*/
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link {
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.card__link--rojo {
+    background-color: red;
+}
