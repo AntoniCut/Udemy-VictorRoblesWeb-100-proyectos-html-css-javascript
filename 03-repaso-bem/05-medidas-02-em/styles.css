@@ -1,0 +1,38 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /05-medidas-02-em/styles.css  ******************  */
+
+
+/*  **********  Medidas en EM  **********  */ 
+/*  -----  Depende del elemento Padre  -----  */
+
+
+body {
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+} 
+
+.padre {
+    font-size: 10px;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.padre2 {
+    font-size: 50px;
+}
+
+.caja {
+    width: 13em;
+    height: 13em;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
