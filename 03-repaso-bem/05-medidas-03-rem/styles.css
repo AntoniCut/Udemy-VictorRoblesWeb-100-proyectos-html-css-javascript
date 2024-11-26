@@ -1,0 +1,67 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /05-medidas-03-rem/styles.css  *****************  */
+
+
+/*  **********  Medidas en REM  **********  */ 
+/*  -----  Depende del elemento Raiz  --  root:, html o body  -----  */
+
+html {
+    font-size: 30px;
+}
+
+body {
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+} 
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.caja {
+    font-size: 2rem;
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 528px) {
+    
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 368px) {
+    
+    html {
+        font-size: 8px;
+    }
+
+    body {
+        background-color: green;
+    }
+}
