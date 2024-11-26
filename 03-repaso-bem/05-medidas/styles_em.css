@@ -1,0 +1,54 @@
+/*  **********  Unidades de Medida en CSS  **********  */
+
+
+/*  **********  Medidas en px y %  **********  */ 
+
+/*
+body {
+    height: 1200px;
+    font-size: 40px;
+}
+*/
+
+.caja {
+    font-size: 20px;
+    /*width: 300px;*/
+    width: 50%;
+    /*height: 300px;*/
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+
+/*  **********  medidas en 'em'  **********  */
+/*  dependen del elemento padre  */
+
+.padre {
+    font-size: 10px;
+}
+
+.padre h1 {
+    font-size: 5em;
+}
+
+.padre2 {
+    font-size: 50px;
+}
+
+.caja2 {
+    
+    width: 13em;
+    height: 13em;
+    
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+
+ }
+
+ .caja2 h3 {
+    font-size: 5em;
+ }
