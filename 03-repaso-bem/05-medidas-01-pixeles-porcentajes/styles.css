@@ -1,0 +1,38 @@
+/*  **********  /04-curso-100-proyectos-html-css-js/  **********  */
+/*  **********  /03-repaso-bem/  *******************************  */
+/*  **********  /05-medidas/styles.html  ***********************  */
+
+
+/*  **********  Medidas en px y %  **********  */ 
+
+
+body {
+    height: 1200px;
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+} 
+
+.title {
+    text-align: center;
+}
+
+.caja {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.caja-pixeles {
+    width: 300px;
+    height: 300px;
+}
+
+.caja-porcentajes {
+    width: 20%;
+    height: 20%;
+}
