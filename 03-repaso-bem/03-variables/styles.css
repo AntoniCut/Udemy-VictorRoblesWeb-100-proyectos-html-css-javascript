@@ -4,6 +4,7 @@
 
 
 :root {
+    --background-principal: #eeeeee;
     --color-principal: red;
     --fuente: Arial, Verdana;
     --fuente-size: 45px;
@@ -11,6 +12,7 @@
 
 body {
     text-align: center;
+    background-color: var(--background-principal);
 }
 
 h1 {
