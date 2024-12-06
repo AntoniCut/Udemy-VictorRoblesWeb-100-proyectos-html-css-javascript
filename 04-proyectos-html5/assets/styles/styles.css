@@ -1,0 +1,57 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /04-proyectos-html5/  ***************************  */ 
+/*  **********  /assets/styles/styles.css  **********************  */ 
+/*  *************************************************************  */
+
+body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.separador {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: #ccc;
+}
+
+.separador2 {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: #ccc;
+}
+
+.header,
+.aside,
+.footer {
+    padding: 20px;
+    background-color: #eee;
+}
+
+.contenidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contenido {
+    padding: 20px;
+    background-color: #eee;
+}
+
+p {
+    text-align: justify;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}

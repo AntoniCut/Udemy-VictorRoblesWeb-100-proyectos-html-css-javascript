@@ -1,0 +1,178 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /04-proyectos-html5/  *****-----***************  -->
+<!--  **********  /proyecto-12-al-18-html/index.html  ***********  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciados Proyectos  ----------  
+    -  12.  Añade una imagen a la web con 800px de ancho, texto alternativo y título. 
+    -  13.  Añade un vídeo que se reproduzca nada mas cargar la página, el video debera estar silenciado,
+            debera tener una miniatura, 500px de ancho y 300px de alto. 
+    -  14.  Añade un audio con sus respectivos controles.
+    -  15.  Crea un párrafo que tenga una imagen opcional que debera tener un texto opcional de 600px de ancho y 400px de alto.
+    -  16.  Añade a tu web, un mapa de google, un vídeo de youtube y una web embebida.
+    -  17.  Crea un enlace a https://udemy.antonydev.tech/jquery-de-cero-a-avanzado, y al proyecto html 01-06.
+            y deben de abrirse en una pestaña nueva.
+    -  18.  Crea un menú con 5 enlaces que deberan llevar a un proyecto.
+           
+   
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyectos del 12 al 18 HTML - + 100 Proyectos HTML, CSS y JS </title>
+    <link rel="icon" href="../assets/img/html5.ico">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    </link>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <!--  -----  Encabezado o titular principal de la web  -----  -->
+        <h1> ----- Proyectos 12, 13, 14, 15, 16, 17 y 18 HTML ----- </h1>
+
+        <!--  -----  Código preformateado  -----  -->
+        <pre>
+
+            -  12.  Añade una imagen a la web con 800px de ancho, texto alternativo y título. 
+            -  13.  Añade un vídeo que se reproduzca nada mas cargar la página, el video debera estar silenciado,
+                    debera tener una miniatura, 500px de ancho y 300px de alto. 
+            -  14.  Añade un audio con sus respectivos controles.
+            -  15.  Crea un párrafo que tenga una imagen opcional que debera tener un texto opcional de 600px de ancho y 400px de alto.
+            -  16.  Añade a tu web, un mapa de google, un vídeo de youtube y una web embebida.
+            -  17.  Crea un enlace a https://udemy.antonydev.tech/jquery-de-cero-a-avanzado, y al proyecto html 01-06.
+                    y deben de abrirse en una pestaña nueva.
+            -  18.  Crea un menú con 5 enlaces que deberan llevar a un proyecto.
+
+        </pre>
+
+    </header>
+
+    <!--  -----  etiqueta div para hacer un separador  -----  -->
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 12 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Imagen </h2>
+    <img src="../assets/img/bmw-m50.jpg" title="BMW M50" alt="BMW M50" width="800px">
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 13 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Vídeo </h2>
+    <video src="../assets/video/libro.mp4" controls muted poster="../assets/img/bmw-m50.jpg" width="500" height="300">
+        Este Reproductor de Vídeo no es compatible con tu navegador.
+    </video>
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 14 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Aúdio </h2>
+    <audio src="../assets/audio/musica.mp3" controls>
+        Este Reproductor de Audio no es compatible con tu navegador.
+    </audio>
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 15 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Párrafo con Imagen Opcional </h2>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores minima obcaecati molestiae dolore voluptates
+        eaque commodi natus nostrum explicabo doloremque facilis quasi consectetur assumenda id quisquam temporibus
+        quis, labore incidunt!
+    <figure>
+        <img src="../assets/img/bmw-m50.jpg" title="BMW M50 AZUL" alt="BMW M50 AZUL" width="600" height="400">
+        <figcaption> BMW M50 AZUL </figcaption>
+    </figure>
+    </p>
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 16 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Mesón La Torre de Puente Tocinos, Murcia </h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6288.516719910362!2d-1.0933449!3d37.9944338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63828bed865e4f%3A0x7202bfb9c88207f5!2sRestaurante%20Mes%C3%B3n%20La%20Torre!5e0!3m2!1ses!2ses!4v1733510267348!5m2!1ses!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br> <br>
+    <h2> Video de Víctor Robles Web </h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EBXbhkFg0iU?si=XpT09lZqLx4nWY9X"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br> <br>
+    <h2> Mi Web </h2>
+    <iframe src="https://udemy.antonydev.tech/jquery-de-cero-a-avanzado/" title="Mi Web" width="100%" height="750px">
+    </iframe>
+
+    <div class="separador"> </div>
+
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 17 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Enlaces </h2>
+    <a href="https://udemy.antonydev.tech/jquery-de-cero-a-avanzado/" target="_blank">
+        udemy.antonydev.tech/jquery-de-cero-a-avanzado/ </a>
+    <a href="../proyecto-01-al-06-html/index.html" target="_blank"> proyecto html 01 al 06 </a>
+
+
+    <div class="separador"> </div>
+
+
+    <!--  -----------------------------------------  -->
+    <!--  ----------  Ejercício 18 html  ----------  -->
+    <!--  -----------------------------------------  -->
+
+    <h2> Enlaces </h2>
+    <nav>
+        <ul>
+            <li> <a href="https://udemy.antonydev.tech/jquery-de-cero-a-avanzado/" target="_blank">
+                    udemy.antonydev.tech/jquery-de-cero-a-avanzado/ </a> </li>
+            <li> <a href="https://udemy.antonydev.tech/master-css3-avanzado/maquetacion-web-1/" target="_blank">
+                    Maquetación Web 1 </a> </li>
+            <li> <a href="https://udemy.antonydev.tech/master-css3-avanzado/maquetacion-web-2/" target="_blank">
+                    Maquetación Web 2 </a> </li>
+            <li> <a href="https://udemy.antonydev.tech/master-css3-avanzado/maquetacion-web-3/" target="_blank">
+                    Maquetación Web 3 </a> </li>
+            <li> <a href="https://antonydev-02-pokemon-static.netlify.app/" target="_blank"> Pokemón Static </a> </li>
+        </ul>
+    </nav>
+
+    <div class="separador"> </div>
+
+   
+</body>
+
+</html>

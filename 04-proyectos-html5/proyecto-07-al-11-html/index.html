@@ -1,0 +1,228 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /04-proyectos-html5/  *****-----***************  -->
+<!--  **********  /proyecto-07-al-11-html/index.html  ***********  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciados Proyectos  ----------  
+    -  7.  Crea una web que tenga una cabecera, contenido principal, barra lateral 
+           y píe de página. Dentro debe tener el contenido lógico de ese tipo de
+           elementos de una web.
+    -  8.  Crea una lista ordenada de comidas.
+    -  9.  Crea una lista desordenada de videojuegos.
+    -  10. Crea una lista anidada con marcas de coches y los modelos de dicha marca.
+    -  11. Crea una lista de definicion de frutas.
+   
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyectos del 7 al 11 HTML - + 100 Proyectos HTML, CSS y JS </title>
+    <link rel="icon" href="../assets/img/html5.ico">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    </link>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <!--  -----  Encabezado o titular principal de la web  -----  -->
+        <h1> ----- Proyectos 7, 8, 9, 10 y 11 HTML ----- </h1>
+
+        <!--  -----  Código preformateado  -----  -->
+        <pre>
+
+            -  7.  Crea una web que tenga una cabecera, contenido principal, barra lateral 
+                   y píe de página. Dentro debe tener el contenido lógico de ese tipo de
+                   elementos de una web.
+            -  8.  Crea una lista ordenada de comidas.
+            -  9.  Crea una lista desordenada de videojuegos.
+            -  10. Crea una lista anidada con marcas de coches y los modelos de dicha marca.
+            -  11. Crea una lista de definicion de frutas.
+
+        </pre>
+
+    </header>
+
+    <!--  -----  etiqueta div para hacer un separador  -----  -->
+    <div class="separador"> </div>
+
+
+
+    <!--  ----------------------------------------  -->
+    <!--  ----------  Ejercício 7 html  ----------  -->
+    <!--  ----------------------------------------  -->
+
+    <header class="header">
+        <h1> Título de la web </h1>
+        <nav>
+            <a href="#"> inicio </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#"> artículos </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#"> sobre mí </a>
+        </nav>
+    </header>
+
+    <div class="separador2"> </div>
+
+    <main class="contenidos">
+
+        <section class="contenido">
+
+            <h2> Mira mis ultimos artículos </h2>
+
+            <article>
+                <h2> Título del artículo 1 </h2>
+                <time datetime="06/12/2024"> 06/12/2024 </time>
+                <p> Contenido del Artículo 1 </p>
+            </article>
+
+            <article>
+                <h2> Título del artículo 2 </h2>
+                <time datetime="06/12/2024"> 07/12/2024 </time>
+                <p> Contenido del Artículo 2 </p>
+            </article>
+
+            <article>
+                <h2> Título del artículo 3 </h2>
+                <time datetime="06/12/2024"> 08/12/2024 </time>
+                <p> Contenido del Artículo 3 </p>
+            </article>
+
+        </section>
+
+        <!--  ----------------------------------------  -->
+        <!--  ----------  Ejercício 8 html  ----------  -->
+        <!--  ----------------------------------------  -->
+        <section class="contenido">
+
+            <h2> Lista de comidas </h2>
+
+            <ol>
+                <li> Patatas fritas </li>
+                <li> Ensalada cesar </li>
+                <li> Pimientos asados </li>
+                <li> Tortilla de patatas </li>
+                <li> Pastel de manzana </li>
+            </ol>
+
+        </section>
+
+        <!--  ----------------------------------------  -->
+        <!--  ----------  Ejercício 9 html  ----------  -->
+        <!--  ----------------------------------------  -->
+
+        <section class="contenido">
+
+            <h2> Lista de Videojuegos </h2>
+
+            <ul>
+                <li> Uncharter 4 </li>
+                <li> GTA 6 </li>
+                <li> WWE 2K24 </li>
+                <li> Ciberpunk 2027 </li>
+                <li> GTA Trilogy </li>
+            </ul>
+
+        </section>
+
+        <!--  -----------------------------------------  -->
+        <!--  ----------  Ejercício 10 html  ----------  -->
+        <!--  -----------------------------------------  -->
+
+        <section class="contenido">
+
+            <h2> Lista de Vehículos </h2>
+
+            <ul>
+
+                <li>
+                    Audi
+                    <ul>
+                        <li> Audi A3 </li>
+                        <li> Audi A4 </li>
+                        <li> Audi Q3 </li>
+                    </ul>
+                </li>
+
+                <br>
+
+                <li>
+                    BMW
+                    <ul>
+                        <li> BMW IX M60 </li>
+                        <li> BMW IX M50 </li>
+                        <li> BMW I5 </li>
+                    </ul>
+                </li>
+
+                <br>
+
+                <li>
+                    Ford
+                    <ol>
+                        <li> Ford Mustang </li>
+                        <li> Ford Focus </li>
+                        <li> Ford Fiesta </li>
+                    </ol>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!--  -----------------------------------------  -->
+        <!--  ----------  Ejercício 11 html  ----------  -->
+        <!--  -----------------------------------------  -->
+
+        <section class="contenido">
+
+            <h2> Lista de Definición de frutas </h2>
+
+            <dl>
+                <dt> Naranja </dt>
+                <dd> Fruto del naranjo, comestible y con pulpa en gajos </dd>
+
+                <dt> Fresa </dt>
+                <dd> Fruto rojo con semillas, carnoso, dulce y muy rico </dd>
+            </dl>
+
+        </section>
+
+    </main>
+
+
+    <div class="separador2"> </div>
+
+    <aside class="aside">
+        <h2> Barra Lateral </h2>
+        <div>
+            <form>
+                <input type="search" placeholder="Buscar"> <br>
+            </form>
+        </div>
+    </aside>
+
+    <div class="separador2"> </div>
+
+    <footer class="footer">
+        Curso de desarrollo web con cientos de proyectos de antonydev &copy; <time datetime="06/12/2024"> 2024 </time>
+    </footer>
+
+
+    <div class="separador"> </div>
+
+</body>
+
+</html>
