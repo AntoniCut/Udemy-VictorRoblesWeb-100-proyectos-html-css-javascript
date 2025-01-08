@@ -1,0 +1,37 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  **********  */
+/*  **********  /05-proyectos-css3/  **************************  */
+/*  **********  /proyecto-03-css/styles.css  ******************  */
+/*  ***********************************************************  */
+
+
+body {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+article h2 {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+article a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid gray;
+}
