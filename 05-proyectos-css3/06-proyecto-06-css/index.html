@@ -1,0 +1,103 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /05-proyectos-css3/  **************************  -->
+<!--  **********  /proyecto-06-css/index.html  ******************  -->
+<!--  ***********************************************************  -->
+
+
+<!--   
+
+        ENUNCIADO 6.
+
+    Maqueta el siguiente diseño lo más parecido posible. 
+    Así debería quedar. Ver PDF: 
+ 
+    
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets//favicon/css3.ico" type="image/x-icon">
+    <title> Proyecto 6 CSS3 - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Styles  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+
+
+    <div class="layout">
+
+        <main class="layout__main">
+
+            <h1 class="main__title"> Correo temporal</h1>
+
+            <div class="main__generate">
+                <p class="generate__mail"> victor@temp.com </p>
+                <i class="fa-solid fa-copy generate__icon"> </i>
+            </div>
+
+            <form class="main__form">
+
+                <div class="form__slider">
+
+                    <header class="control__title">
+                        <span class="control__text"> Longitud </span>
+                        <span class="control__number"> 4 </span>
+                    </header>
+
+                    <input class="control__range" type="range" value="4" min="1" max="10">
+
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" id="letters" name="letters">
+                    <label for="letters" class="control__label"> Con letras </label>
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" id="number" name="numbers">
+                    <label for="numbers" class="control__label"> Con números </label>
+                </div>
+
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" id="sym" name="sym">
+                    <label for="sym" class="control__label"> Con Simbolos </label>
+                </div>
+
+                <div class="form__control">
+                    <input type="checkbox" class="control__checkbox" id="mayus" name="mayus">
+                    <label for="mayus" class="control__label"> Con Mayusculas </label>
+                </div>
+
+                <div class="form__control">
+                    <input type="text" class="control__input" placeholder="personalizado">
+                </div>
+
+                <input type="submit" class="form__submit" value="Crear">
+
+            </form>
+
+        </main>
+
+    </div>
+ 
+
+</body>
+
+</html>
