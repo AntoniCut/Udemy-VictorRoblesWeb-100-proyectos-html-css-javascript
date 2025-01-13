@@ -1,0 +1,45 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  **********  */
+/*  **********  /05-proyectos-css3/  **************************  */
+/*  **********  /07-proyecto-07-css/styles.css  ***************  */
+/*  ***********************************************************  */
+
+
+body {
+    width: 100%;
+    min-width: 1024px;
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+a {
+    transition: all 300ms linear;
+}
+
+ul > li > a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    color: blue;
+}
+
+li > ul > li > a {
+    color: red;
+    font-size: 17px;
+}
+
+li > ul > li > a:hover {
+    color: brown;
+}
