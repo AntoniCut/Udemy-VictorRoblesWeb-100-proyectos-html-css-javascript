@@ -1,14 +1,14 @@
 <!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
 <!--  **********  /05-proyectos-css3/  **************************  -->
-<!--  **********  /proyecto-06-css/index.html  ******************  -->
+<!--  **********  /proyecto-10-css/index.html  ******************  -->
 <!--  ***********************************************************  -->
 
 
 <!--   
 
-        ENUNCIADO 8.
+        ENUNCIADO 10.
 
-    Maqueta la siguiente web lo más parecida posible a esta:
+    Maqueta el siguiente buscador de hoteles.
     Así debería quedar. Ver PDF: 
      
 -->
@@ -21,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/favicon/css3.ico" type="image/x-icon">
-    <title> Proyecto 8 CSS3 - + 100 Proyectos HTML, CSS y JS </title>
+    <title> Proyecto 10 CSS3 - + 100 Proyectos HTML, CSS y JS </title>
 
     <!--  -----  Fonts  -----  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,54 +43,49 @@
 
     <div class="layout">
 
-        <main class="layout__main">
+        <h1 class="layout__title"> Busca tu hotel </h1>
 
-            <h1 class="main__title"> Planes y Precios </h1>
+        <form class="layout__search">
 
-            <section class="main__prices">
+            <input type="search" class="search__input" placeholder="Busca tu hotel y lo encontraremos...">
 
-                <article class="prices__price">
-                    <h2 class="price__subtitle"> Básico </h2>
-                    <h3 class="price__number"> 8€ </h3>
-                    <p class="price__detail"> Calidad HD </p>
-                    <p class="price__detail"> 2 Dispositivos simultaneos </p>
-                    <p class="price__detail"> Incluye anuncios </p>
-                    <a href="#" class="price__btn"> Comprar </a>
-                </article>
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"> </i>
+            </button>
 
-                <article class="prices__price prices__price--zoom">
-                    <h2 class="price__subtitle"> Estandar </h2>
-                    <h3 class="price__number"> 15€ </h3>
-                    <p class="price__detail"> Calidad Full HD </p>
-                    <p class="price__detail"> 3 Dispositivos simultaneos </p>
-                    <p class="price__detail"> Sin anuncios </p>
-                    <a href="#" class="price__btn"> Comprar </a>
-                </article>
+        </form>
 
-                <article class="prices__price">
-                    <h2 class="price__subtitle"> Deluxe </h2>
-                    <h3 class="price__number"> 25€ </h3>
-                    <p class="price__detail"> Calidad 4K </p>
-                    <p class="price__detail"> 5 Dispositivos simultaneos </p>
-                    <p class="price__detail"> Sin anuncios </p>
-                    <a href="#" class="price__btn"> Comprar </a>
-                </article>
+        <main class="layout__results">
 
-            </section>
+            <article class="results__result">
+                <p class="result__subtitle"> Nombre: </p>
+                <h3 class="result__title"> Hotel Víctor </h3>
+            </article>
 
-            <form class="main__toggle">
-                <span class="toggle__label"> Suscriptor extra </span>
-                <label class="toggle__switch" for="checkbox">
-                    <input type="checkbox" class="toggle__checkbox" id="checkbox">
-                    <div class="toggle__slider"> </div>
-                </label>
-            </form>
+            <article class="results__result">
+                <p class="result__subtitle"> Ubicación: </p>
+                <h3 class="result__title"> Calle Robles Web, 10 </h3>
+            </article>
 
+            <article class="results__result">
+                <p class="result__subtitle"> Fecha: </p>
+                <h3 class="result__title"> 01/07/2025 </h3>
+            </article>
 
         </main>
 
-    </div>
+        <section class="layout__map">
 
+            <iframe 
+                class="map__frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.61507760009!2d-3.7059267469699!3d40.417053228381135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422880a07d7dc7%3A0x694aee57da1dc679!2sPuerta%20del%20Sol%2C%20Centro%2C%20Madrid!5e0!3m2!1ses!2ses!4v1736847861636!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </section>
+
+    </div>
 
 </body>
 
