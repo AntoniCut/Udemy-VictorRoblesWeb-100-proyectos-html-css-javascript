@@ -1,0 +1,32 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  **********  */
+/*  **********  /05-proyectos-css3/  **************************  */
+/*  **********  /11-proyecto-11-css/styles.css  ***************  */
+/*  ***********************************************************  */
+
+
+body {
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    background-image: url(../fondos/pattern-small.png);
+    background-repeat: repeat;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    border: 1px solid black;
+    background: darkblue;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    border: 3px solid teal;
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+}
