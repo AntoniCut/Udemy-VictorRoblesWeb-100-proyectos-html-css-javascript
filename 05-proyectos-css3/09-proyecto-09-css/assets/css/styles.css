@@ -1,0 +1,32 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  **********  */
+/*  **********  /05-proyectos-css3/  **************************  */
+/*  **********  /09-proyecto-09-css/styles.css  ***************  */
+/*  ***********************************************************  */
+
+
+@font-face {
+    font-family: OpenSansLocal ;
+    src: url(../fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Roboto";
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "OpenSansLocal";
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
