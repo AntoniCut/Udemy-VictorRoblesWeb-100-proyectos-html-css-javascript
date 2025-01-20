@@ -1,0 +1,112 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  *************  */
+/*  **********  /05-proyectos-css3/  *****************************  */
+/*  **********  /proyecto-10-css/assets/css/styles.css  **********  */
+/*  **************************************************************  */
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0b3d9;
+}
+
+.layout__main {
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container {
+    background-color: #151932;
+    min-width: 45rem;
+    height: 45rem;
+    border-radius: 100%;
+    padding: 3rem;
+}
+
+.main__crono {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #d6dffe;
+    border: 10px solid #99f870;
+    border-radius: 100%;
+    border-left-color: transparent ;
+}
+
+.crono__time {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #d6dffe;
+}
+
+.crono__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.crono__pause,
+.crono__start {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: black;
+    background-color: #99f870;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.crono__pause:hover,
+.crono__start:hover {
+    background-color: #b0b3d9;
+}
+
+.main__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 4rem;
+    padding: 0.8rem;
+    border-radius: 5rem;
+    background-color: #151932;
+}
+
+.nav__item {
+    color: white;
+    opacity: 0.5;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.nav__item:first-child,
+.nav__item:hover {
+    opacity: 1;
+    border-radius: 5rem;
+    color: #151932;
+    background-color: #99f870;
+}
