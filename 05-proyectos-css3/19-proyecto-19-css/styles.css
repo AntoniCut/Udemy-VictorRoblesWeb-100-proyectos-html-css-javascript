@@ -1,0 +1,65 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  **********  */
+/*  **********  /05-proyectos-css3/  **************************  */
+/*  **********  /17-proyecto-17-css/styles.css  ***************  */
+/*  ***********************************************************  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.layout {
+    width: 1400px;
+    height: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-color: rgb(213, 71, 71);
+    padding: 30px;
+    font-size: 20px;
+}
+
+.main {
+    width: 65%;
+    float: left;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    padding: 30px;
+    background-color: rgb(245, 171, 32);
+}
+
+.article {
+    width: calc(50% - 40px);
+    height: 300px;
+    line-height: 300px;
+    margin: 20px;
+    background-color: rgb(233, 233, 94);
+    float: left;
+}
+
+.lateral {
+    width: 35%;
+    height: 1100px;
+    padding-top: 20px;
+    background-color: #3bc0ff;
+    float: left;
+    font-size: 18px;
+}
+
+.footer {
+    color: white;
+    background-color: gray;
+    clear: both;
+    padding: 40px;
+}
