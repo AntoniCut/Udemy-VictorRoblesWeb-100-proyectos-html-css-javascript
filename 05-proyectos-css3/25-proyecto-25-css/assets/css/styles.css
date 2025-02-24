@@ -1,0 +1,122 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  *************  */
+/*  **********  /05-proyectos-css3/  *****************************  */
+/*  **********  /proyecto-23-css/assets/css/styles.css  **********  */
+/*  **************************************************************  */
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #eeefff;
+}
+
+.title {
+    width: 87rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #4953ba;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 13px #7e78782b;
+}
+
+.layout__main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.layout__article {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.article__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+}
+
+.article__overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #4953ba;
+    margin-top: 0;
+    padding: 3rem;
+    transform: translateX(-40rem);
+    transition: all 300ms linear;
+}
+
+.layout__article:hover > .article__overlay{
+    transform: translateX(0);
+}
+
+.article__title {
+    margin-bottom: 4rem;
+}
+
+.article__description {
+    font-weight: 500;
+}
+
+
+.layout__article--2 > .article__overlay {
+    background-color: #ed5050;
+    height: 50%;
+    position: relative;
+    transform: translateY(40rem);
+}
+
+.layout__article--2:hover > .article__overlay{
+    transform: translateY(20rem);
+}
+
+.layout__article--2:hover > .article__img{
+    transform: translateY(-20rem);
+}
+
+
+.layout__article--3 > .article__overlay {
+    background-color: #18a3a6;
+    transform: translateY(40rem); 
+}
+
+.layout__article--3:hover > .article__overlay{
+    transform: translateY(0);
+}
