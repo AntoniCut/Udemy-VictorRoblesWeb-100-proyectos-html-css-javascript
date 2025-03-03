@@ -1,0 +1,19 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */ 
+/*  **********  /proyecto-01-js/assets/css/styles.css  **********  */ 
+/*  *************************************************************  */
+
+body {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+}
