@@ -25,3 +25,8 @@ do {
 
 result = actualYear - year;
 alert('tienes ' + result + ' años');
+
+const resultado = document.querySelector('#resultado');
+resultado.innerHTML = `
+    <h3> Tienes ${result} años </h3>
+`;
