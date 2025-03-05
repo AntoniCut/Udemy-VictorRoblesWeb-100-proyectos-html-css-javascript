@@ -14,7 +14,7 @@
 
 //  -----  Referencias al HTML  -----
 const resultBox = document.getElementById('result');
-const h2 = document.createElement('h2');
+
 
 //  -----  Solicitar datos al usuario  -----
 const frase = prompt('Introduce una frase:');
@@ -28,8 +28,11 @@ let fraseFinal = frase;
 const reemplazar = (frase, palabra, reemplazo) => {
     
     //  -----  Verifica si la palabra está en la frase  -----
-    if (frase.includes(palabra)) return frase.replace(palabra, reemplazo);
-    else return 'Esa palabra no existe en la frase.';
+    if (frase.includes(palabra)) 
+        return frase.replace(palabra, reemplazo);
+    
+    else 
+        return 'Esa palabra no existe en la frase.';
 };
 
 
@@ -37,6 +40,13 @@ const reemplazar = (frase, palabra, reemplazo) => {
 fraseFinal = reemplazar(frase, palabra, reemplazo);
 alert(fraseFinal);
 
-// Mostrar el resultado en el DOM
-h2.innerText = fraseFinal;
-resultBox.appendChild(h2);
+
+//  -----  Mostrar el resultado en el DOM  -----
+resultBox.innerHTML += `
+
+    La frase es: <h3> ${frase} </h3>
+    La palabra a buscar es: <h3> ${palabra} </h3>
+    La palabra a reemplazar es: <h3> ${reemplazo} </h3>
+    La nueva frase es: <h3> ${fraseFinal} </h3>
+
+`;
