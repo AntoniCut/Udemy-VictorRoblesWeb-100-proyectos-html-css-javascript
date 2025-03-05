@@ -14,7 +14,7 @@
 
 //  -----  referencias al HTML  -----
 const resultado = document.getElementById('resultado');
-const h2 = document.createElement('h2');
+const h3 = document.createElement('h3');
 
 
 const esPar = (numero) => {
@@ -28,8 +28,8 @@ const renderResultado = (numero, parImpar) => {
         console.log(result);
         alert(result);
 
-        h2.innerHTML = result;
-        resultado.appendChild(h2);
+        h3.innerHTML = result;
+        resultado.appendChild(h3);
 }
 
 

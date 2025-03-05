@@ -15,17 +15,15 @@
 */
 
 
-
 //  -----  Referencias al HTML  -----
 const resultBox = document.getElementById('result');
-const h2 = document.createElement('h2');
-
 const numbersBox = document.getElementById('numbers');
-const p = document.createElement('p');
 
 //  -----  Inicialización de la variable del resultado  -----
 let result = 0;
 
+
+let count = parseInt(prompt('¿Quantos números quieres sumar?', 5));
 
 //  -----  Función que genera números aleatorios  -----
 const generateRandomNumbers = (count, min, max) => Array.from({ length: count }, () => Math.floor(Math.random() * (max - min + 1)) + min);
@@ -33,24 +31,28 @@ const generateRandomNumbers = (count, min, max) => Array.from({ length: count },
 
 //  -----  Función que suma todos los números  -----
 const sumAll = (...numbers) => {
-    
-    p.innerHTML = '<br>Los números son...';
-    
+
+    numbersBox.innerHTML = '<br> Los números son: &nbsp; ';
+
     numbers.forEach((number, index) => {
-        
-        if (index === numbers.length - 1) p.innerText += `${number}`;
-        else p.innerText += `${number}, `;
+
+        if (index === numbers.length - 1)
+            numbersBox.innerText += ` ${number}`;
+
+        else
+            numbersBox.innerText += ` ${number}, `;
+
         result += number;
+
     });
 
-    h2.innerHTML = `El resultado es: ${result} <br><br>`;
-    resultBox.appendChild(h2);
-    numbersBox.appendChild(p);
+    resultBox.innerHTML = `El resultado es: ${result}`;
+
 }
 
 
 //  -----  Generar números aleatorios  -----
-const randomNumbers = generateRandomNumbers(5, 1, 100);     // 5 números aleatorios entre 1 y 100.
+const randomNumbers = generateRandomNumbers(count, 1, 100);     // 5 números aleatorios entre 1 y 100.
 
 
 //  -----  Llamar a la función sumAll con los números generados  -----
