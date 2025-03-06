@@ -1,6 +1,6 @@
 /*  **********  /04-curso-100-proyectos-html-css-js  ************  */
 /*  **********  /06-proyectos-javascript/  **********************  */ 
-/*  **********  /proyecto-13-js/assets/css/styles.css  **********  */ 
+/*  **********  /proyecto-14-js/assets/css/styles.css  **********  */ 
 /*  *************************************************************  */
 
 
@@ -18,4 +18,8 @@ body {
 hr {
     width: 100%;
     height: 2px;
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
 }

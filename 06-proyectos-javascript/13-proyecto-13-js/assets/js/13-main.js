@@ -62,14 +62,9 @@ function mostrar(datos) {
 
         cajaConcesionario.innerHTML += `</ul>`;
 
-
-
-
-    })
-
-    
+    });
 
 }
 
 
-mostrar(concesionario)
+mostrar(concesionario);
