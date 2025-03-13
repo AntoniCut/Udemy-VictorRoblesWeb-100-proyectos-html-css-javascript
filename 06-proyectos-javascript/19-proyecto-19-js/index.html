@@ -1,0 +1,150 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-19-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 19  ----------  
+
+    -  Utiliza los estilos de las tarjetas de proyectos anteriores y añade este formulario. Ver PDF.
+    -  El usuario podrá crear artículos.
+    -  Los artículos al refrescar la página no deberán borrarse (usa el LocalStorage).
+                                  
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 19 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    </link>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    </link>
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/19-main.js" defer> </script>
+
+</head>
+
+<body>
+
+    <hr>
+    <h1> ----- Proyecto 19 JavaScript ----- </h1>
+    <hr>
+
+    <div class="layout">
+
+
+        <!--  -----  sección del formulário  -----  -->
+        <section class="layout__container-form">
+
+            <form class="form__create">
+
+                <div class="create__container">
+                    <label class="create__label" for="title"> Título </label>
+                    <input class="create__input" type="text" id="title" required>
+                </div>
+
+                <div class="create__container">
+                    <label class="create__label" for="subtitle"> Subtítulo </label>
+                    <input class="create__input" type="text" id="subtitle" required>
+                </div>
+
+                <div class="create__container">
+                    <label class="create__label" for="description"> Descripción </label>
+                    <textarea class="create__input" id="description" required> </textarea>
+                </div>
+
+                <input class="create__btn"  type="submit" value="Crear artículo">
+
+            </form>
+
+        </section>
+
+
+        <!--  -----  sección de artículos  -----  -->
+        <section class="layout__articles">
+
+
+            <!-- -----  artículo 1  ----- -->
+            <article class="layout__card">
+
+                <header class="card__header">
+                    <p class="card__author"> Víctor Robles </p>
+                </header>
+
+                <div class="card__content">
+                    <h2 class="content__title"> Caja de prueba 1 </h2>
+                    <p class="content__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aperiam ipsa itaque voluptatem incidunt praesentium tenetur deserunt.
+                    </p>
+                </div>
+
+                <button class="content__btn"> Cambiar estilos </button>
+
+            </article>
+
+
+            <!--  -----  artículo 2  -----  -->
+            <article class="layout__card">
+
+                <header class="card__header">
+                    <p class="card__author"> Víctor Robles </p>
+                </header>
+
+                <div class="card__content">
+                    <h2 class="content__title"> Caja de prueba 2 </h2>
+                    <p class="content__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aperiam ipsa itaque voluptatem incidunt praesentium tenetur deserunt.
+                    </p>
+                </div>
+
+                <button class="content__btn"> Cambiar estilos </button>
+
+            </article>
+
+
+            <!--  -----  artículo 3  -----  -->
+            <article class="layout__card">
+
+                <header class="card__header">
+                    <p class="card__author"> Víctor Robles </p>
+                </header>
+
+                <div class="card__content">
+                    <h2 class="content__title"> Caja de prueba 3 </h2>
+                    <p class="content__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aperiam ipsa itaque voluptatem incidunt praesentium tenetur deserunt.
+                    </p>
+                </div>
+
+                <button class="content__btn"> Cambiar estilos </button>
+
+            </article>
+
+
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
