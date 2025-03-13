@@ -1,0 +1,101 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */ 
+/*  **********  /proyecto-18-js/assets/css/styles.css  **********  */ 
+/*  *************************************************************  */
+
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Monserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: #E8EFFA;
+}
+
+header {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.layout{
+    max-width: 1000px;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.layout__main {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.layout__container-crono {
+    margin-bottom: 3rem;
+}
+
+.layout__crono {
+    /* width: 25rem; */
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.layout__btns {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.layout__btn-start,
+.layout__btn-stop {
+    width: 100%;
+    padding: 0.7rem 0rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ec3d3d;
+    font-weight: 600;
+    transition: all 300ms ease-in-out;
+}
+
+.layout__btn-stop {
+    color: white;
+    background-color: #cccccc;
+}
+
+.layout__btn-start:hover {
+    background-color: rgb(22, 140, 22);
+}
+
+.layout__btn-stop:hover {
+    background-color: rgb(17, 14, 14);
+}
+
+.layout__btn-stop.disabled-hover:hover {
+    background-color: rgb(22, 140, 22) !important;
+}
+
+.layout__btn-stop.active-hover:hover {
+    background-color: rgb(17, 14, 14) !important;
+}

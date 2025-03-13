@@ -1,0 +1,79 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-18-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 18  ----------  
+
+    -  Antes de empezar con JS, deberás tener una web con estos estilos.
+    -  Crea un fichero JavaScript y vincúlalo con tu fichero HTML, con JS deberás hacer que el
+       cronometro empiece a contar al pulsar el botón de iniciar, el cronometro se parara cuando
+       llegue a 60 minutos o el usuario pulse el botón parar, al pararse podrá volver a iniciarse
+       pulsando el mismo botón. Ver PDF.
+                                  
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 18 JS - + 100 Proyectos HTML, CSS y JS </title>
+    
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css"> </link>
+    <link rel="stylesheet" href="./assets/css/styles.css"> </link>
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/18-main.js" defer> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header>
+            <hr>
+            <h1> ----- Proyecto 18 JavaScript ----- </h1>
+            <hr>
+        </header>
+
+        <main class="layout__main">
+
+            <section class="layout__container-crono">
+
+                <div class="layout__crono">
+
+                    <span class="crono__min"> 00 </span>
+                    <span class="crono__separator"> : </span>
+                    <span class="crono__sec"> 00 </span>
+
+                </div>
+
+            </section>
+
+            <section class="layout__btns">
+
+                <button class="layout__btn-start"> Iniciar </button>
+                <button class="layout__btn-stop"> Parar </button>
+
+            </section>
+
+        </main>
+
+    </div>
+          
+</body>
+
+</html>
