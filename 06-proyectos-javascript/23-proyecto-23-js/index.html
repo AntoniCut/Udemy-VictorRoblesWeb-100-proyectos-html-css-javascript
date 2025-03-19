@@ -1,0 +1,65 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-23-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 23  ----------  
+
+    -  Necesitamos hacer un validador de emails.
+       Si el email es correcto mostrara un check y si es incorrecto una cruz. Ver PDF.
+    -  Expresión regular validar email mas robusta:
+        let pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 23 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    </link>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    </link>
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/23-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <h1 class="layout__title"> Proyecto 23 -- JavaScript </h1>
+
+        <main class="layout__main">
+
+            <input type="email" id="email" class="main__input" placeholder="Introduce tu Email">
+
+            <div class="main__icons"> 
+                <i class="icons__check fa-solid fa-circle-check"> </i>
+                <i class="icons__xmark fa-solid fa-circle-xmark"> </i>
+            </div>
+           
+        </main>
+
+    </div>
+
+</body>
+
+</html>
