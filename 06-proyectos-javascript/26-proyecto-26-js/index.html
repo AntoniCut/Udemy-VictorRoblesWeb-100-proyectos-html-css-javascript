@@ -1,15 +1,16 @@
 <!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
 <!--  **********  /06-proyectos-javascript/  ********************  -->
-<!--  **********  /proyecto-25-js/index.html  *******************  -->
+<!--  **********  /proyecto-26-js/index.html  *******************  -->
 <!--  ***********************************************************  -->
 
 <!--  
 
-    ----------  Enunciado Proyecto 25  ----------  
+    ----------  Enunciado Proyecto 26  ----------  
 
-    -  Crea una aplicación que te dé un emoji aleatorio. Ver PDF.
-       Al pasar el ratón por encima del emoji debe colorearse y 
-       al sacar el ratón fuera debe cambiar a otro emoji.
+    -  Necesitamos hacer la funcionalidad de marcar como favorito algo en una web.
+    -  Haremos una estrella como esta y cuando le demos click debe pintarse de amarillo y hacer
+       una animación. Ver PDF.
+    -  La animación será una expansión de la misma estrella que se difuminará poco a poco.
        
 -->
 
@@ -21,12 +22,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/favicon/favicon-JS.ico">
-    <title> Proyecto 25 JS - + 100 Proyectos HTML, CSS y JS </title>
+    <title> Proyecto 26 JS - + 100 Proyectos HTML, CSS y JS </title>
 
     <!--  -----  Fonts  -----  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.css">
     
     <!--  -----  Estilos  -----  -->
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -34,7 +36,7 @@
     
 
     <!--  -----  JS  -----  -->
-    <script src="./assets/js/25-main.js"> </script>
+    <script src="./assets/js/26-main.js"> </script>
 
 </head>
 
@@ -42,13 +44,11 @@
 
     <div class="layout">
 
-        <h1 class="layout__title"> Proyecto 25 -- JavaScript </h1>
+        <h1 class="layout__title"> Proyecto 26-- JavaScript </h1>
 
-        <main class="layout__emojis">
-
-            <!-- <span class="emojis__emoji"> 😊  🛑  ❌  🥊 🚀  🏆  ⚠️ </span> -->
-            <span class="emojis__emoji"> 😊 </span>
-           
+        <main class="layout__main">
+            <i class="main__star main__star--gray fa-solid fa-star"> </i>
+            <i class="main__star main__star--yellow fa-solid fa-star"> </i>
         </main>
 
     </div>
