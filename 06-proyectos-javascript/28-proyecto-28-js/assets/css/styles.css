@@ -1,0 +1,100 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */ 
+/*  **********  /proyecto-28-js/assets/css/styles.css  **********  */ 
+/*  *************************************************************  */
+
+
+html{
+    font-size: 10px;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    overflow: hidden;
+    background-color: #E8EFFA;
+    /* box-shadow: 1px 1px 8px inset #91c5e0; */
+}
+
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.layout__header {
+    width: 100%;
+    position: fixed;
+    padding: 2rem;
+    /* text-align: center; */
+    /* background-color: #bedff1; */
+    /* box-shadow: 1px 1px 2px #91c5e0; */
+}
+
+
+.layout__title {
+    width: 100%;
+    /* text-align: center; */
+    text-shadow: 0px 0px 2px blue;
+}
+
+.layout__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__background {
+    content: "";
+    width: calc(100% + 4rem);
+    height: calc(100% + 4rem);
+    position: absolute;
+    z-index: -1;
+    filter: blur(3rem);
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.load__number {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1rem black;
+}
+
+.load__btn {
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #2e9955;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.load__btn:hover {
+    background-color: #30af5e;
+}
+
+.load__complete {
+    display: none;
+    color: #30af5e;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-shadow: 0 0 1rem black;
+}

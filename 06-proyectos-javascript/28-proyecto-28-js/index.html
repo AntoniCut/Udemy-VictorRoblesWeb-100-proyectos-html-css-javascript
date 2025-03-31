@@ -1,0 +1,67 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-28-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 28  ----------  
+
+    -  Haremos un efecto de carga muy interesante. Tenemos una web desenfocada. Ver PDF.
+    -  Al hacer click al botón debe iniciarse la carga, ocultar el botón y cuando llegue al 100% mostrar
+       un texto indicando que la carga ha sido completada, también deberá eliminar el efecto de blur
+       poco a poco. Ver PDF.
+       
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 28 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/28-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header class="layout__header">
+            <h1 class="layout__title"> Proyecto 28 -- JavaScript </h1>
+        </header>
+        
+
+        <main class="layout__main">
+
+            <section class="main__background"> </section>
+
+            <div class="main__load">
+                <p class="load__number"> 0% </p>
+                <button class="load__btn"> Cargar </button>
+                <p class="load__complete"> ¡Carga Completada! </p>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
