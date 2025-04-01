@@ -1,0 +1,132 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */
+/*  **********  /proyecto-29-js/assets/css/styles.css  **********  */
+/*  *************************************************************  */
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    overflow: hidden;
+    /* background-color: #E8EFFA; */
+    background-color: #f7f8fd;
+    box-shadow: 1px 1px 8px inset #91c5e0;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.layout__header {
+    width: 100%;
+    position: fixed;
+    padding: 2rem;
+    text-align: center;
+    background-color: #bedff1;
+    box-shadow: 1px 1px 2px #91c5e0;
+}
+
+.layout__title {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 2px blue;
+}
+
+.layout__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    width: 25%;
+    background-color: #37384e;
+    border-radius: 1rem;
+    padding: 6rem 4rem;
+}
+
+.main__title {
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.form__control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    color: white;
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.form__input {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #616280;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.form__input:focus {
+    box-shadow: 0px 0px 8px white;
+}
+
+.form__btn {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #5a5ad0;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: -1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form__btn:hover {
+    background-color: #9292e0;
+}
+
+.blur {
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.focus {
+    left: 0;
+    top: -2.5rem;
+    transform: translateY(0);
+}
