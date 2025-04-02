@@ -1,0 +1,94 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-30-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 30  ----------  
+
+    -  La web debe verse así. Ver PDF.
+    -  Cuando la web cargue, debe aumentarse el valor de los followers hasta llegar al objetivo de
+       forma “animada”. Ver PDF.
+
+        .socials__item>.fa-instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+       
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 30 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/30-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header class="layout__header">
+            <h1 class="layout__title"> Proyecto 30 -- JavaScript </h1>
+        </header>
+        
+        <main class="layout__main">
+
+            <section class="main__container">
+
+                <h1 class="main__title"> Victor Robles Web </h1>
+
+                <ul class="main__socials">
+                    
+                    <li class="socials__item"> 
+                        <i class="fa-brands fa-youtube"> </i>
+                        <span class="socials__number" data-target="363000"> 0 </span>
+                    </li>
+
+                    <li class="socials__item"> 
+                        <i class="fa-brands fa-twitter"> </i>
+                        <span class="socials__number" data-target="12000"> 0 </span>
+                    </li>
+
+                    <li class="socials__item"> 
+                        <i class="fa-brands fa-instagram"> </i>
+                        <span class="socials__number" data-target="30000"> 0 </span>
+                    </li>
+
+                    <li class="socials__item"> 
+                        <i class="fa-brands fa-facebook"> </i>
+                        <span class="socials__number" data-target="8000"> 0 </span>
+                    </li>
+                    
+                </ul>
+
+            </section>
+            
+        </main>
+
+    </div>
+
+</body>
+
+</html>
