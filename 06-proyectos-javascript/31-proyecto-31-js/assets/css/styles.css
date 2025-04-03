@@ -1,0 +1,156 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */
+/*  **********  /proyecto-31-js/assets/css/styles.css  **********  */
+/*  *************************************************************  */
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    /* overflow: hidden; */
+    background-color: #E8EFFA;
+    /* background-color: #f7f8fd; */
+    box-shadow: 1px 1px 8px inset #91c5e0;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.layout__header {
+    width: 100%;
+    position: fixed;
+    padding: 2rem;
+    text-align: center;
+    background-color: #bedff1;
+    box-shadow: 1px 1px 2px #91c5e0;
+}
+
+.layout__title {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 2px blue;
+}
+
+.layout__main {
+    width: 100%;
+    height: 40rem;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: wheat;
+}
+
+.main__steps {
+    position: relative;
+    height: 100%;
+    margin-right: 4rem;
+}
+
+.steps__progress,
+.steps__bar {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 0.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.steps__progress {
+    height: 100%;
+    background-color: #cbd0cc;
+}
+
+.steps__bar {
+    height: 0%;
+    background-color: #009688;
+}
+
+.steps__circle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.steps__step {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5c6f84;
+    background-color: white;
+    border-radius: 5rem;
+    border: 3px solid #cbd0cc;
+    transition: all 300ms linear;
+}
+
+.steps__step > .fa-solid {
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.active {
+    border: 3px solid #009688;
+}
+
+.active > .fa-solid {
+    opacity: 1;
+}
+
+.main__btns {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.btns__prev,
+.btns__next {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #009688;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-size: 600;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.disable {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.btns__prev:not(.disable):hover,
+.btns__next:not(.disable):hover {
+    background-color: #38b6a9;
+}
+
+

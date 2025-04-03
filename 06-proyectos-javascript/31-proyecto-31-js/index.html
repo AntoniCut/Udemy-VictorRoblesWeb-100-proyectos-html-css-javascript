@@ -1,0 +1,105 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-31-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 31  ----------  
+
+    -  La web debe verse así. Ver PDF.
+    -  Al hacer click al botón de siguiente la barra de progreso debe aumentar hasta el siguiente
+       punto de esta forma. Ver PDF.
+    -  Si le damos a anterior deberá retroceder y quedar como la primera imagen. Ver PDF.
+    
+       
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 31 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/31-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header class="layout__header">
+            <h1 class="layout__title"> Proyecto 31 -- JavaScript </h1>
+        </header>
+        
+        <main class="layout__main">
+
+            <section class="main__steps">
+
+                <div class="steps__progress"> 
+                    <div class="steps__bar"> </div>
+                </div>
+
+                <div class="steps__circle"> 
+
+                    <article class="steps__step active"> 
+                        <i class="fa-solid fa-check"> </i>
+                    </article>
+
+                    <article class="steps__step"> 
+                        <i class="fa-solid fa-check"> </i>
+                    </article>
+
+                    <article class="steps__step"> 
+                        <i class="fa-solid fa-check"> </i>
+                    </article>
+
+                    <article class="steps__step"> 
+                        <i class="fa-solid fa-check"> </i>
+                    </article>
+
+                    <article class="steps__step"> 
+                        <i class="fa-solid fa-check"> </i>
+                    </article>
+
+                </div>
+                
+            </section>
+
+
+            <section class="main__btns">
+
+                <button class="btns__prev disable" disabled="true"> 
+                    Anterior 
+                </button>
+
+                <button class="btns__next"> 
+                    Siguiente
+                </button>
+
+            </section>
+            
+        </main>
+
+    </div>
+
+</body>
+
+</html>
